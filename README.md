@@ -29,3 +29,9 @@ git add bug8071.py
 git commit -m "Corregir bug 8071"  
 git flow hotfix finish -k fix-bug  
   
+
+7. Para ver el estado actual de las ramas:  
+git flow feature  
+git flow release  
+git flow hotfix  
+  
