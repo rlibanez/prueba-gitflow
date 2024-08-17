@@ -8,3 +8,11 @@ git config --global gitflow.branch.master main
 git flow init (-d para aplicar opciones por defecto)  
 git add LICENSE README.md  
 git commit -m "LICENSE y README.md iniciales"  
+
+4. Crear una nueva feature (funcionalidad):  
+git flow feature start helloworld  
+git add hello.py  
+git commit -m "Añadir script de saludo"  
+git flow feature finish helloworld (elimina la rama feature/helloworld)  
+git flow feature finish -k helloworld (mantiene la rama feature/helloworld)  
+  
