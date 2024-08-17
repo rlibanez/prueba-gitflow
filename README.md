@@ -16,3 +16,10 @@ git commit -m "Añadir script de saludo"
 git flow feature finish helloworld (elimina la rama feature/helloworld)  
 git flow feature finish -k helloworld (mantiene la rama feature/helloworld)  
   
+5. Crear una nueva release (versión):  
+git flow release start 1.0.0  
+git add version.py  
+git commit -m "Preparar la versión 1.0.0"  
+git flow release finish 1.0.0 (elimina la rama release/1.0.0)  
+git flow release finish -k 1.0.0  (mantiene la rama release/1.0.0)  
+  
